@@ -1,0 +1,28 @@
+.container-form{
+    display: inline-flex;
+    text-align: center;
+    padding-bottom: 20px;
+}
+.div-input{
+    padding-right: 15px;
+}
+.input{
+    border-radius: 20px;
+    border: none;
+    padding: 4px;
+    padding-left: 10px;
+}
+.button-form{
+    border: 1px green;
+    border-radius: 20px;
+    padding: 4px 10px;
+    background-color: greenyellow;
+}
+.button-form:hover{
+    background-color: #2bff00;
+  }
+  
+.button-form:active{
+    position: relative;
+    top:1px;
+  }

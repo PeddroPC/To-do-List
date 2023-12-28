@@ -1,0 +1,37 @@
+.container-dado{
+    padding: 5px;
+    overflow: hidden;
+    justify-content: center;
+}
+.tarefa{
+    float: left;
+    width: 50%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+}
+.div-checkbox{
+    float: right;
+    display: block;
+    width: 30%;   
+}
+.label-checkbox{
+    padding-left: 10px;
+}
+.div-button{
+    float:left
+}
+.button-tarefa{
+    border: 1px rgb(131, 0, 0);
+    border-radius: 20px;
+    padding: 4px 10px;
+    background-color: rgb(219, 70, 70);
+}
+.button-tarefa:hover{
+    background-color: #e41111;
+  }
+  
+.button-tarefa:active{
+    position: relative;
+    top:1px;
+  }
